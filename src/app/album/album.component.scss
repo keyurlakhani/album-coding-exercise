@@ -1,0 +1,31 @@
+mat-toolbar.mat-toolbar {
+    min-height: 84px;
+    padding: 8px 24px 0;
+  }
+  
+  .filter-by-label {
+    padding: 0 8px;
+  }
+  
+  mat-form-field.mat-form-field {
+    padding: 0 8px;
+  }
+  
+  mat-row:nth-child(even){
+    background-color:white;
+  }
+  
+  mat-row:nth-child(odd){
+    background-color:grey;
+  }
+  
+  .mat-button.mat-primary {
+    color: white;
+    background-color: blue;
+    margin-bottom: 15px;
+  }
+  
+  .pagination {
+    float: right;
+    margin-top: 10px;
+  }

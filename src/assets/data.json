@@ -1,0 +1,702 @@
+[
+	{
+		"id" : 1,
+		"album_title" : "Fetch the Bolt Cutters",
+		"album_artist" : "Fiona Apple",
+		"album_genre" : "Art Pop",
+		"year_released" : 2020
+	},
+	{
+		"id" : 2,
+		"album_title" : "RTJ4",
+		"album_artist" : "Run the Jewels",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2020
+	},
+	{
+		"id" : 3,
+		"album_title" : "Set My Heart on Fire Immediately",
+		"album_artist" : "Perfume Genius",
+		"album_genre" : "Art Pop",
+		"year_released" : 2020
+	},
+	{
+		"id" : 4,
+		"album_title" : "Summerlong",
+		"album_artist" : "Rose City Band",
+		"album_genre" : "Country Rock",
+		"year_released" : 2020
+	},
+	{
+		"id" : 5,
+		"album_title" : "Rough and Rowdy Ways",
+		"album_artist" : "Bob Dylan",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2020
+	},
+	{
+		"id" : 6,
+		"album_title" : "Punisher",
+		"album_artist" : "Phoebe Bridgers",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2020
+	},
+	{
+		"id" : 7,
+		"album_title" : "Song For Our Daughter",
+		"album_artist" : "Laura Marling",
+		"album_genre" : "Folk",
+		"year_released" : 2020
+	},
+	{
+		"id" : 8,
+		"album_title" : "Shall We Go On Sinning So That Grace May Increase?",
+		"album_artist" : "The Soft Pink Truth",
+		"album_genre" : "Ambient",
+		"year_released" : 2020
+	},
+	{
+		"id" : 9,
+		"album_title" : "Obsidian",
+		"album_artist" : "Paradise Lost",
+		"album_genre" : "Gothic Metal",
+		"year_released" : 2020
+	},
+	{
+		"id" : 10,
+		"album_title" : "grae",
+		"album_artist" : "Moses Sumney",
+		"album_genre" : "Art Pop",
+		"year_released" : 2020
+	},
+	{
+		"id" : 11,
+		"album_title" : "Ghosteen",
+		"album_artist" : "Nick Cave & The Bad Seeds",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2019
+	},
+	{
+		"id" : 12,
+		"album_title" : "Hidden History of the Human Race",
+		"album_artist" : "Blood Incantation",
+		"album_genre" : "Death Metal",
+		"year_released" : 2019
+	},
+	{
+		"id" : 13,
+		"album_title" : "Eternal Forward Motion",
+		"album_artist" : "Employed to Serve",
+		"album_genre" : "Post-Hardcore",
+		"year_released" : 2019
+	},
+	{
+		"id" : 14,
+		"album_title" : "The Livelong Day",
+		"album_artist" : "Lankum",
+		"album_genre" : "Folk",
+		"year_released" : 2019
+	},
+	{
+		"id" : 15,
+		"album_title" : "Dogrel",
+		"album_artist" : "Fontaines D.C.",
+		"album_genre" : "Post-Punk",
+		"year_released" : 2019
+	},
+	{
+		"id" : 16,
+		"album_title" : "Psychodrama",
+		"album_artist" : "Dave",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2019
+	},
+	{
+		"id" : 17,
+		"album_title" : "MAGDALENE",
+		"album_artist" : "FKA twigs",
+		"album_genre" : "Art Pop",
+		"year_released" : 2019
+	},
+	{
+		"id" : 18,
+		"album_title" : "Blood",
+		"album_artist" : "Allison Moorer",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2019
+	},
+	{
+		"id" : 19,
+		"album_title" : "Be Content",
+		"album_artist" : "Indoor Pets",
+		"album_genre" : "Power Pop",
+		"year_released" : 2019
+	},
+	{
+		"id" : 20,
+		"album_title" : "COIN COIN Chapter Four: Memphis",
+		"album_artist" : "Matana Roberts",
+		"album_genre" : "Avant-Garde Jazz",
+		"year_released" : 2019
+	},
+	{
+		"id" : 21,
+		"album_title" : "Joy as an Act of Resistance",
+		"album_artist" : "Idles",
+		"album_genre" : "Post-Punk",
+		"year_released" : 2018
+	},
+	{
+		"id" : 22,
+		"album_title" : "All That Divides",
+		"album_artist" : "Black Peaks",
+		"album_genre" : "Progressive Rock",
+		"year_released" : 2018
+	},
+	{
+		"id" : 23,
+		"album_title" : "Ruby",
+		"album_artist" : "Macy Gray",
+		"album_genre" : "Soul",
+		"year_released" : 2018
+	},
+	{
+		"id" : 24,
+		"album_title" : "Honey",
+		"album_artist" : "Robyn",
+		"album_genre" : "Electropop",
+		"year_released" : 2018
+	},
+	{
+		"id" : 25,
+		"album_title" : "Heir To Despair",
+		"album_artist" : "Sigh",
+		"album_genre" : "Avant-Garde Metal",
+		"year_released" : 2018
+	},
+	{
+		"id" : 26,
+		"album_title" : "Both Directions at Once: The Lost Album",
+		"album_artist" : "John Coltrane",
+		"album_genre" : "Jazz",
+		"year_released" : 2018
+	},
+	{
+		"id" : 27,
+		"album_title" : "Confident Music For Confident People",
+		"album_artist" : "Confidence Man",
+		"album_genre" : "Alternative Dance",
+		"year_released" : 2018
+	},
+	{
+		"id" : 28,
+		"album_title" : "You Won't Get What You Want",
+		"album_artist" : "Daughters",
+		"album_genre" : "Noise Rock",
+		"year_released" : 2018
+	},
+	{
+		"id" : 29,
+		"album_title" : "Chris",
+		"album_artist" : "Christine and the Queens",
+		"album_genre" : "Synthpop",
+		"year_released" : 2018
+	},
+	{
+		"id" : 30,
+		"album_title" : "Double Negative",
+		"album_artist" : "Low",
+		"album_genre" : "Ambient Pop",
+		"year_released" : 2018
+	},
+	{
+		"id" : 31,
+		"album_title" : "DAMN.",
+		"album_artist" : "Kendrick Lamar",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2017
+	},
+	{
+		"id" : 32,
+		"album_title" : "Melodrama",
+		"album_artist" : "Lorde",
+		"album_genre" : "Art Pop",
+		"year_released" : 2017
+	},
+	{
+		"id" : 33,
+		"album_title" : "A Crow Looked at Me",
+		"album_artist" : "Mount Eerie",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2017
+	},
+	{
+		"id" : 34,
+		"album_title" : "A Pocket of Wind Resistance",
+		"album_artist" : "Karine Polwart & Pippa Murphy",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2017
+	},
+	{
+		"id" : 35,
+		"album_title" : "All We Know of Heaven, All We Need of Hell",
+		"album_artist" : "PVRIS",
+		"album_genre" : "Alternative Rock",
+		"year_released" : 2017
+	},
+	{
+		"id" : 36,
+		"album_title" : "Big Fish Theory",
+		"album_artist" : "Vince Staples",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2017
+	},
+	{
+		"id" : 37,
+		"album_title" : "Grow Up",
+		"album_artist" : "Desperate Journalist",
+		"album_genre" : "Post-Punk",
+		"year_released" : 2017
+	},
+	{
+		"id" : 38,
+		"album_title" : "Other",
+		"album_artist" : "Alison Moyet",
+		"album_genre" : "Electropop",
+		"year_released" : 2017
+	},
+	{
+		"id" : 39,
+		"album_title" : "Nightbringers",
+		"album_artist" : "The Black Dahlia Murder",
+		"album_genre" : "Melodic Death Metal",
+		"year_released" : 2017
+	},
+	{
+		"id" : 40,
+		"album_title" : "MASSEDUCTION",
+		"album_artist" : "St. Vincent",
+		"album_genre" : "Art Pop",
+		"year_released" : 2017
+	},
+	{
+		"id" : 41,
+		"album_title" : "Lemonade",
+		"album_artist" : "Beyonce",
+		"album_genre" : "R&B",
+		"year_released" : 2016
+	},
+	{
+		"id" : 42,
+		"album_title" : "Skeleton Tree",
+		"album_artist" : "Nick Cave & The Bad Seeds",
+		"album_genre" : "Art Rock",
+		"year_released" : 2016
+	},
+	{
+		"id" : 43,
+		"album_title" : "You Want It Darker",
+		"album_artist" : "Leonard Cohen",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2016
+	},
+	{
+		"id" : 44,
+		"album_title" : "A Seat at the Table",
+		"album_artist" : "Solange",
+		"album_genre" : "Alternative R&B",
+		"year_released" : 2016
+	},
+	{
+		"id" : 45,
+		"album_title" : "We got it from Here... Thank You 4 Your service",
+		"album_artist" : "A Tribe Called Quest",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2016
+	},
+	{
+		"id" : 46,
+		"album_title" : "Slow Forever",
+		"album_artist" : "Cobalt",
+		"album_genre" : "Black Metal",
+		"year_released" : 2016
+	},
+	{
+		"id" : 47,
+		"album_title" : "22, A Million",
+		"album_artist" : "Bon Iver",
+		"album_genre" : "Art Pop",
+		"year_released" : 2016
+	},
+	{
+		"id" : 48,
+		"album_title" : "This Is Where I Live",
+		"album_artist" : "William Bell",
+		"album_genre" : "Soul",
+		"year_released" : 2016
+	},
+	{
+		"id" : 49,
+		"album_title" : "A Moon Shaped Pool",
+		"album_artist" : "Radiohead",
+		"album_genre" : "Art Rock",
+		"year_released" : 2016
+	},
+	{
+		"id" : 50,
+		"album_title" : "Blonde",
+		"album_artist" : "Frank Ocean",
+		"album_genre" : "Alternative R&B",
+		"year_released" : 2016
+	},
+	{
+		"id" : 51,
+		"album_title" : "To Pimp a Butterfly",
+		"album_artist" : "Kendrick Lamar",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2015
+	},
+	{
+		"id" : 52,
+		"album_title" : "The Fade In Time",
+		"album_artist" : "Sam Lee & Friends",
+		"album_genre" : "Folk",
+		"year_released" : 2015
+	},
+	{
+		"id" : 53,
+		"album_title" : "Carrie & Lowell",
+		"album_artist" : "Sufjan Stevens",
+		"album_genre" : "Indie Folk",
+		"year_released" : 2015
+	},
+	{
+		"id" : 54,
+		"album_title" : "From Kinshasa",
+		"album_artist" : "Mbongwana Star",
+		"album_genre" : "World",
+		"year_released" : 2015
+	},
+	{
+		"id" : 55,
+		"album_title" : "No Cities to Love",
+		"album_artist" : "Sleater Kinney",
+		"album_genre" : "Indie Rock",
+		"year_released" : 2015
+	},
+	{
+		"id" : 56,
+		"album_title" : "A Mulher do Fim do Mundo",
+		"album_artist" : "Elza Soares",
+		"album_genre" : "MPB",
+		"year_released" : 2015
+	},
+	{
+		"id" : 57,
+		"album_title" : "Have You in My Wilderness",
+		"album_artist" : "Julia Holter",
+		"album_genre" : "Art Pop",
+		"year_released" : 2015
+	},
+	{
+		"id" : 58,
+		"album_title" : "Hand. Cannot. Erase.",
+		"album_artist" : "Stevenn Wilson",
+		"album_genre" : "Art Rock",
+		"year_released" : 2015
+	},
+	{
+		"id" : 59,
+		"album_title" : "Divers",
+		"album_artist" : "Joanna Newsom",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2015
+	},
+	{
+		"id" : 60,
+		"album_title" : "Ten Love Songs",
+		"album_artist" : "Susanne Sundfor",
+		"album_genre" : "Art Pop",
+		"year_released" : 2015
+	},
+	{
+		"id" : 61,
+		"album_title" : "Black Messiah",
+		"album_artist" : "D'Angelo and The Vanguard",
+		"album_genre" : "Neo-Soul",
+		"year_released" : 2014
+	},
+	{
+		"id" : 62,
+		"album_title" : "To Be Kind",
+		"album_artist" : "Swans",
+		"album_genre" : "Experimental Rock",
+		"year_released" : 2014
+	},
+	{
+		"id" : 63,
+		"album_title" : "All Rise: A Joyful Elegy for Fats Waller",
+		"album_artist" : "Jason Moran",
+		"album_genre" : "Jazz",
+		"year_released" : 2014
+	},
+	{
+		"id" : 64,
+		"album_title" : "Run the Jewels 2",
+		"album_artist" : "Run the Jewels",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2014
+	},
+	{
+		"id" : 65,
+		"album_title" : "St. Vincent",
+		"album_artist" : "St. Vincent",
+		"album_genre" : "Art Pop",
+		"year_released" : 2014
+	},
+	{
+		"id" : 66,
+		"album_title" : "The Way I'm Livin'",
+		"album_artist" : "Lee Ann Womack",
+		"album_genre" : "Country",
+		"year_released" : 2014
+	},
+	{
+		"id" : 67,
+		"album_title" : "Metamodern Sounds in Country Music",
+		"album_artist" : "Sturgill Simpson",
+		"album_genre" : "Country",
+		"year_released" : 2014
+	},
+	{
+		"id" : 68,
+		"album_title" : "LP1",
+		"album_artist" : "FKA twigs",
+		"album_genre" : "Alternative R&B",
+		"year_released" : 2014
+	},
+	{
+		"id" : 69,
+		"album_title" : "The Gloaming",
+		"album_artist" : "The Gloaming",
+		"album_genre" : "Folk",
+		"year_released" : 2014
+	},
+	{
+		"id" : 70,
+		"album_title" : "Syro",
+		"album_artist" : "Aphex Twin",
+		"album_genre" : "IDM",
+		"year_released" : 2014
+	},
+	{
+		"id" : 71,
+		"album_title" : "Coin Coin Chapter Two: Mississippi Moonchile",
+		"album_artist" : "Matana Roberts",
+		"album_genre" : "Avant-Garde Jazz",
+		"year_released" : 2013
+	},
+	{
+		"id" : 72,
+		"album_title" : "Sunbather",
+		"album_artist" : "Deafheaven",
+		"album_genre" : "Blackgaze",
+		"year_released" : 2013
+	},
+	{
+		"id" : 73,
+		"album_title" : "Beautiful Africa",
+		"album_artist" : "Rokia Traore",
+		"album_genre" : "World",
+		"year_released" : 2013
+	},
+	{
+		"id" : 74,
+		"album_title" : "Without a Net",
+		"album_artist" : "Wayne Shorter Quartet",
+		"album_genre" : "Avant-Garde Jazz",
+		"year_released" : 2013
+	},
+	{
+		"id" : 75,
+		"album_title" : "How To Stop Your Brain In An Accident",
+		"album_artist" : "Future of the Left",
+		"album_genre" : "Post-Hardcore",
+		"year_released" : 2013
+	},
+	{
+		"id" : 76,
+		"album_title" : "m b v",
+		"album_artist" : "My Bloody Valentine",
+		"album_genre" : "Shoegaze",
+		"year_released" : 2013
+	},
+	{
+		"id" : 77,
+		"album_title" : "Colored Sands",
+		"album_artist" : "Gorguts",
+		"album_genre" : "Death Metal",
+		"year_released" : 2013
+	},
+	{
+		"id" : 78,
+		"album_title" : "Jama Ko",
+		"album_artist" : "Bassekou Kouyate & Ngoni Ba",
+		"album_genre" : "World",
+		"year_released" : 2013
+	},
+	{
+		"id" : 79,
+		"album_title" : "Once I Was an Eagle",
+		"album_artist" : "Laura Marling",
+		"album_genre" : "Folk",
+		"year_released" : 2013
+	},
+	{
+		"id" : 80,
+		"album_title" : "Teeth of the Sea",
+		"album_artist" : "Master",
+		"album_genre" : "Post-Rock",
+		"year_released" : 2013
+	},
+	{
+		"id" : 81,
+		"album_title" : "Channel Orange",
+		"album_artist" : "Frank Ocean",
+		"album_genre" : "Alternative R&B",
+		"year_released" : 2012
+	},
+	{
+		"id" : 82,
+		"album_title" : "good kid, m.A.A.d. city",
+		"album_artist" : "Kendrick Lamar",
+		"album_genre" : "Hip Hop",
+		"year_released" : 2012
+	},
+	{
+		"id" : 83,
+		"album_title" : "Lonerism",
+		"album_artist" : "Tame Impala",
+		"album_genre" : "Psychedelic Rock",
+		"year_released" : 2012
+	},
+	{
+		"id" : 84,
+		"album_title" : "The Idler Wheel",
+		"album_artist" : "Fiona Apple",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2012
+	},
+	{
+		"id" : 85,
+		"album_title" : "The Seer",
+		"album_artist" : "Swans",
+		"album_genre" : "Post-Rock",
+		"year_released" : 2012
+	},
+	{
+		"id" : 86,
+		"album_title" : "Desertshore / The Final Report",
+		"album_artist" : "X-TG",
+		"album_genre" : "Electronic",
+		"year_released" : 2012
+	},
+	{
+		"id" : 87,
+		"album_title" : "Voices From the Lake",
+		"album_artist" : "Voices From the Lake",
+		"album_genre" : "Techno",
+		"year_released" : 2012
+	},
+	{
+		"id" : 88,
+		"album_title" : "Mid Air",
+		"album_artist" : "Paul Buchanan",
+		"album_genre" : "Art Pop",
+		"year_released" : 2012
+	},
+	{
+		"id" : 89,
+		"album_title" : "fIN",
+		"album_artist" : "John Talabot",
+		"album_genre" : "Deep House",
+		"year_released" : 2012
+	},
+	{
+		"id" : 90,
+		"album_title" : "All We Love We Leave Behind",
+		"album_artist" : "Converge",
+		"album_genre" : "Metalcore",
+		"year_released" : 2012
+	},
+	{
+		"id" : 91,
+		"album_title" : "Pull Up Some Dust and Sit Down",
+		"album_artist" : "Ry Cooder",
+		"album_genre" : "Folk",
+		"year_released" : 2011
+	},
+	{
+		"id" : 92,
+		"album_title" : "Let England Shake",
+		"album_artist" : "PJ Harvey",
+		"album_genre" : "Alternative Rock",
+		"year_released" : 2011
+	},
+	{
+		"id" : 93,
+		"album_title" : "Weather",
+		"album_artist" : "Meshell Ndegeocello",
+		"album_genre" : "Soul",
+		"year_released" : 2011
+	},
+	{
+		"id" : 94,
+		"album_title" : "Strange Mercy",
+		"album_artist" : "St. Vincent",
+		"album_genre" : "Art Pop",
+		"year_released" : 2011
+	},
+	{
+		"id" : 95,
+		"album_title" : "Bad as Me",
+		"album_artist" : "Tom Waits",
+		"album_genre" : "Blues",
+		"year_released" : 2011
+	},
+	{
+		"id" : 96,
+		"album_title" : "The Harrow & The Harvest",
+		"album_artist" : "Gillian Welch",
+		"album_genre" : "Folk",
+		"year_released" : 2011
+	},
+	{
+		"id" : 97,
+		"album_title" : "Kaputt",
+		"album_artist" : "Destroyer",
+		"album_genre" : "Sophisti-Pop",
+		"year_released" : 2011
+	},
+	{
+		"id" : 98,
+		"album_title" : "50 Words for Snow",
+		"album_artist" : "Kate Bush",
+		"album_genre" : "Art Pop",
+		"year_released" : 2011
+	},
+	{
+		"id" : 99,
+		"album_title" : "The Randy Newman Songbook Vol. 2",
+		"album_artist" : "Randy Newman",
+		"album_genre" : "Singer-Songwriter",
+		"year_released" : 2011
+	},
+	{
+		"id" : 100,
+		"album_title" : "The Entire City",
+		"album_artist" : "Gazelle Twin",
+		"album_genre" : "Ambient Pop",
+		"year_released" : 2011
+	}
+]

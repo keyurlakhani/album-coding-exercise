@@ -1,0 +1,58 @@
+<section>
+    <h1>Albums of the Year</h1>
+    <button mat-button color="primary" (click)="loadAlbum()">Load Albums</button>
+</section>
+
+<mat-toolbar>
+    <span class="filter-by-label">Filter By</span>
+    <mat-form-field>
+        <mat-label></mat-label>
+        <mat-select [formControl]="filterBy">
+            <mat-option *ngFor="let columnObj of filterByColumnList" [value]="columnObj.value">
+                {{columnObj.viewValue}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+        <mat-label></mat-label>
+        <input matInput [formControl]="searchTerm" placeholder="Search Input">
+    </mat-form-field>
+
+</mat-toolbar>
+<ng-container>
+    <mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+        <!-- year, album, artist, genre -->
+        <ng-container matColumnDef="year_released">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Year </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.year_released}} </mat-cell>
+        </ng-container>
+
+        <!-- Title Column -->
+        <ng-container matColumnDef="album_title">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Album </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.album_title}} </mat-cell>
+        </ng-container>
+
+        <!-- Artist Column -->
+        <ng-container matColumnDef="album_artist">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Artist </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.album_artist}} </mat-cell>
+        </ng-container>
+
+        <!-- Genre Column -->
+        <ng-container matColumnDef="album_genre">
+            <mat-header-cell *matHeaderCellDef mat-sort-header> Genre </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.album_genre}} </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+    </mat-table>
+    <mat-form-field class="pagination">
+        <mat-label>Jump to Page No.</mat-label>
+        <input matInput [formControl]="pageIndex" placeholder="">
+        <mat-error>Please enter number between 1 to {{maxValuePageIndexValue}}</mat-error>
+    </mat-form-field>
+    <mat-paginator class="pagination" [pageSizeOptions]="[10]" showFirstLastButtons></mat-paginator>
+
+</ng-container>
