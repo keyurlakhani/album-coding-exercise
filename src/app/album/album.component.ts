@@ -1,7 +1,7 @@
 import { Overlay, OverlayRef } from '@angular/cdk/overlay';
 import { ComponentPortal } from '@angular/cdk/portal';
 import { HttpClient } from '@angular/common/http';
-import { Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSpinner } from '@angular/material/progress-spinner';
@@ -14,7 +14,7 @@ import { Subscription } from 'rxjs';
   templateUrl: './album.component.html',
   styleUrls: ['./album.component.scss']
 })
-export class AlbumComponent {
+export class AlbumComponent implements OnInit {
   displayedColumns: string[] = ['year_released', 'album_title', 'album_artist', 'album_genre'];
   dataSource!: MatTableDataSource<any[]>;
   pageIndexValue!: number;
@@ -24,7 +24,7 @@ export class AlbumComponent {
 
   filterBy: FormControl = new FormControl('');
   searchTerm: FormControl = new FormControl('');
-  pageIndex: FormControl = new FormControl('', [Validators.min(1), Validators.max(this.maxValuePageIndexValue)]);
+  pageIndex: FormControl = new FormControl('');
 
   filterByColumnList = [
     { viewValue: 'Year', value: 'year_released' },
@@ -52,9 +52,13 @@ export class AlbumComponent {
     });
   }
 
+  ngOnInit() {
+    this.filterBy.setValue('album_artist')
+  }
+
   loadAlbum() {
     this.spinnerOverlayRef.attach(new ComponentPortal(MatSpinner))
-    this.http.get('assets/data.json').subscribe((data: any) => {
+    this.getAlbum().subscribe((data: any) => {
       this.setDataSource(data);
       this.pageIndexValue = data.length / 10;
       if (this.pageIndexValue % 1 !== 0) {
@@ -63,8 +67,15 @@ export class AlbumComponent {
         this.maxValuePageIndexValue = this.pageIndexValue;
       }
 
+      this.pageIndex.clearValidators();
+      this.pageIndex.setValidators([Validators.min(1), Validators.max(this.maxValuePageIndexValue)])
+
       this.spinnerOverlayRef.detach();
     })
+  }
+
+  getAlbum() {
+    return this.http.get('assets/data.json');
   }
 
   setDataSource(data: any) {
